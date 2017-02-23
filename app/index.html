@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="mds">
+  <head>
+    <meta charset="utf-8">
+    <title>Sample AngularJS App</title>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <!-- <link href="assets/css/main.css" rel="stylesheet"> -->
+    <link href="controllers/auth/auth.css" rel="stylesheet">
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
+  </head>
+
+  <body>
+
+    <!-- <div class="container" role="main" ng-view>
+    </div> -->
+    <div ui-view></div>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-material/angular-material.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+
+    <script src="controllers/auth/auth.router.js"></script>
+    <script src="controllers/auth/login.controller.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

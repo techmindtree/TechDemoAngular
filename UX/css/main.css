@@ -1,0 +1,40 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+#participantes li{
+	float: left;
+	margin: 2px 2px 10px 2px;
+}
+
+.pessoa {
+}
+
+.pessoa img,
+.pessoa a {
+	display: block;
+	text-align: center;
+	text-decoration: none
+}
+
+
+.pessoa img {
+	width: 150px;
+	height: 150px;
+
+}
