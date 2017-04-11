@@ -1,8 +1,11 @@
   angular
     .module('LoginController', [])
-    .controller('LoginController', function() {
+    .controller('LoginController', function($state) {
     var vm = this;
+    vm.validLogin = validLogin;
 
-    vm.name = 'Badrinath Good morning';
+    function validLogin(){
+      $state.go('dashboard');
+    }
 
   });
