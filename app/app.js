@@ -5,5 +5,6 @@ angular.module('mds', [
   'ui.router',
 
   'LoginController',
+  'dashboardController',
   'index.router'
 ]);

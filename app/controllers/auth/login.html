@@ -1,11 +1,3 @@
-<!-- <h1>slkjfsdjf</h1>
-<div layout-gt-sm="row">
-          <md-input-container class="md-block" flex-gt-sm>
-            <label>First name</label>
-            <input ng-model="$vm.name">
-          </md-input-container>
-</div> -->
-
 <div class="container">
   <div class="row">
 
@@ -24,7 +16,7 @@
         <hr class="hr-or">
         <span class="span-or">or</span>
       </div>
-      <form role="form">
+      <form role="form" ng-submit="$vm.validLogin()">
           <md-input-container class="md-icon-float md-block">
             <label>Username or email</label>
             <input type="text" id="inputUsernameEmail">
@@ -40,8 +32,8 @@
           Log In
         </button>
       </form>
-    
+
     </div>
-    
+
   </div>
 </div>
