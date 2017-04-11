@@ -10,5 +10,7 @@ angular.module('mds', [
   'LoginController',
   'dashboardController',
   'index.router',
-  'index.config'
+  'index.config',
+  'index.service',
+  'usersController'
 ]);

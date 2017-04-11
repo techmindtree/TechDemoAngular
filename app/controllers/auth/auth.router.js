@@ -14,6 +14,12 @@ angular
         templateUrl: 'controllers/dashboard/dashboard.html',
         controller: 'dashboardController',
         controllerAs: '$vm'
+  })
+  .state('users', {
+        url: '/users',
+        templateUrl: 'controllers/users/users.html',
+        controller: 'usersController',
+        controllerAs: '$vm'
   });
 
   $urlRouterProvider.otherwise("/auth/login");
