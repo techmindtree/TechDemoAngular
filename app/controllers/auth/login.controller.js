@@ -9,8 +9,8 @@
       showAdvanced();
       $timeout( function(){
         $mdDialog.cancel();
-        toastr.success('Welcome User to Dashboard')
-        $state.go('dashboard');
+        toastr.success('Welcome Users Page')
+        $state.go('users');
       }, 4000 );
     }
 

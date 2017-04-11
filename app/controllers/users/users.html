@@ -1,0 +1,21 @@
+<h1>users</h1>
+<hr>
+  <div class="row">
+<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" ng-repeat="user in $vm.users">
+    <md-card md-theme-watch>
+     <md-card-title>
+       <md-card-title-text>
+         <span class="md-headline">{{user.title}}</span>
+         <span class="md-subhead">{{user.body}}</span>
+       </md-card-title-text>
+       <md-card-title-media>
+         <div class="md-media-sm card-media"></div>
+       </md-card-title-media>
+     </md-card-title>
+     <md-card-actions layout="row" layout-align="end center">
+       <md-button>Edit</md-button>
+       <md-button>Delete</md-button>
+     </md-card-actions>
+    </md-card>
+</div>
+</div>
