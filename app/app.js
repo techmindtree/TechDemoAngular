@@ -3,7 +3,9 @@ angular.module('mds', [
   'ngAnimate',
   'ngMaterial',
   'ui.router',
+  'ngAria',
   'toastr',
+  'textAngular',
 
   'LoginController',
   'dashboardController',
